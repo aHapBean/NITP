@@ -6,13 +6,14 @@ Xiangdong Zhang · Debing Zhang · Shaofeng Zhang · Xiaohan Qin · Yu Cheng · 
 
 **ICML 2026**
 
-[Paper](TBD) · [Citation](TBD)
+[Paper](https://arxiv.org/abs/2605.24956) · [Citation](#citation)
 
 </div>
 
 ## 📰 News
 
 - **May 2026:** NITP was accepted to **ICML 2026**.
+- **May 2026:** The paper is available on [arXiv](https://arxiv.org/abs/2605.24956).
 - **Coming soon:** We will release the NITP implementation code.
 
 ## 🔍 Introduction
@@ -47,7 +48,7 @@ The implicit targets are produced during the same forward pass, so NITP does not
 ## 📈 Representation Dynamics
 
 <p align="center">
-  <img src="./assets/figure1_representation_dynamics.png" width="900" alt="Representation dynamics under NTP and NITP">
+  <img src="./assets/representation_dynamics.png" width="900" alt="Representation dynamics under NTP and NITP">
 </p>
 
 NITP improves the geometry of hidden states during pre-training. Compared with NTP, it maintains a higher effective rank, reduces excessive cosine alignment measured from the last hidden states, and yields stronger benchmark trajectories for both MoE and dense models.
@@ -104,7 +105,15 @@ NITP is lightweight during training and free at inference:
 ## Citation
 
 ```bibtex
-TBD
+@misc{zhang2026nitpimplicittokenprediction,
+      title={NITP: Next Implicit Token Prediction for LLM Pre-training}, 
+      author={Xiangdong Zhang and Debing Zhang and Shaofeng Zhang and Xiaohan Qin and Yu Cheng and Junchi Yan},
+      year={2026},
+      eprint={2605.24956},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.24956}, 
+}
 ```
 
 
